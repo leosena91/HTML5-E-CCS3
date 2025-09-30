@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+.container {
+    position: relative;
+    width: 500%;
+    max-width: 3000px; 
+}
+
+.fundo{
+width: 100%;
+height: 100%;
+display: block;
+}
+
+.astro{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 150px;
+
+
+}.container {
+  position: relative;         /* Define que os elementos filhos podem ser posicionados em relação a esse contêiner */
+  width: 500px;               /* Largura do contêiner (ajuste conforme o tamanho das imagens) */
+  height: 500px;              /* Altura do contêiner (ajuste conforme o tamanho das imagens) */
+}
+
+.fundo {
+  width: 100%;                /* Faz a imagem de fundo ocupar toda a largura do contêiner */
+  height: 100%;               /* Faz a imagem de fundo ocupar toda a altura do contêiner */
+  display: block;             /* Garante que a imagem seja exibida como bloco, sem espaços extras */
+}
+
+.astro {
+  position: absolute;         /* Permite posicionar a imagem do astronauta em qualquer lugar dentro do contêiner */
+  top: 50%;                   /* Move a imagem para 50% da altura do contêiner */
+  left: 50%;                  /* Move a imagem para 50% da largura do contêiner */
+  transform: translate(-50%, -50%); /* Centraliza a imagem exatamente no meio do contêiner */
+  width: 150px;               /* Define a largura da imagem do astronauta (ajuste conforme necessário) */
+}
